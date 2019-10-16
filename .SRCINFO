@@ -1,7 +1,7 @@
 pkgbase = python-liquidctl
 	pkgdesc = Cross-platform tool and drivers for liquid coolers and other devices
 	pkgver = 1.2.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/jonasmalacofilho/liquidctl
 	arch = any
 	license = GPL3
@@ -12,7 +12,9 @@ pkgbase = python-liquidctl
 	depends = python-docopt
 	depends = python-appdirs
 	source = https://files.pythonhosted.org/packages/source/l/liquidctl/liquidctl-1.2.0.tar.gz
+	source = liquidctl.8
 	sha256sums = ad8c03c0695620fedaec11e7a8286bb5d4da18ba0c71e55888bfa06f8f7d7529
+	sha256sums = 98d3ec8959c7b36ae9c94525d94b36c37a4f7112811b34713d3dc9b792e81ea6
 
 pkgname = python-liquidctl
 	depends = python
